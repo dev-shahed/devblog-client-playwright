@@ -26,10 +26,6 @@ const handleModalView = async (page, modalTitle, modalText) => {
   await page.getByRole('button', { name: 'OK' }).click();
 };
 
-//Make a test that ensures that the user who added the blog can delete the blog. If you use the window.confirm dialog in the delete operation, you may have to Google how to use the dialog in the Playwright tests.
-
-
-
 
 module.exports = {
   loginUser,
